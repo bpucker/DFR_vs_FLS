@@ -1,6 +1,6 @@
 #Python code to create 2D density heatmap with marginal histograms using any gene IDs of interest and expression data (from count table) 
 __usage__="""
-                        python3 densityhm_marghist.py
+                        python3 Coexp_plot.py
                         --count_table_path <full path to count table>
                         --gene_x <geneID to be plotted in X-axis enclosed in quotes, if isoforms exist, multiple comma-separated geneIDs could also be provided > 
                         --gene_y <geneID to be plotted in Y-axis enclosed in quotes, if isoforms exist, multiple comma-separated geneIDs could also be provided > 
