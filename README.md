@@ -15,7 +15,9 @@ Mandatory:
   ```
 
 ``` --count_table_path``` specifies the full path to the expression data file
+
 ```--gene_x``` specifies the geneID to be plotted in X-axis. The geneID should be enclosed in quotes, e.g.,"GeneA". If isoforms of the genes exist, multiple comma-separated geneIDs could also be provided, e.g., "GeneA1,GeneA2,GeneA3.." 
+
 ```--gene_y``` specifies the geneID to be plotted in Y-axis. The geneID should be enclosed in quotes, e.g.,"GeneB". If isoforms of the genes exist, multiple comma-separated geneIDs could also be provided, e.g., "GeneB1,GeneB2,GeneB3.."
 ```--gene_x_name```specifies the name of the gene to be plotted in X-axis. 
 ```--gene_y_name```specifies the name of the gene to be plotted in Y-axis.
