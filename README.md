@@ -1,8 +1,8 @@
 # DFR vs FLS
 This repository harbours all scripts used to study DFR and FLS and their contribution to the competing branches of the flavonoid biosynthesis.
 
-## Coexp_plot
-'''
+## Create a co-expression plot between any 2 genes of interest beased on expression data
+```
 Usage:
 python3 Coexp_plot.py --count_table_path <FILE> --gene_x <STR> --gene_y <STR> --gene_x_name <STR> --gene_y_name <STR>
 
@@ -12,7 +12,7 @@ Mandatory:
   --gene_y            STR   Gene ID(s) to be plotted on Y-axis 
   --gene_x_name       STR   Name of the gene to be plotted on X-axis 
   --gene_y_name       STR   Name of the gene to be plotted on Y-axis
-  '''
+  ```
   python3 Coexp_plot.py
                         --count_table_path <full path to count table>
                         --gene_x <geneID to be plotted in X-axis enclosed in quotes, if isoforms exist, multiple comma-separated geneIDs could also be provided > 
