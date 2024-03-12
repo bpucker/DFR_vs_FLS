@@ -1,6 +1,7 @@
 # DFR vs FLS
 This repository harbours all scripts used to study DFR and FLS and their contribution to the competing branches of the flavonoid biosynthesis.
-##Coexp_plot
+
+## Coexp_plot
 '''
 Usage:
 python3 Coexp_plot.py --count_table_path <FILE> --gene_x <STR> --gene_y <STR> --gene_x_name <STR> --gene_y_name <STR>
